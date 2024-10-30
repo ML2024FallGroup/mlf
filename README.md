@@ -6,7 +6,7 @@ First, install dependencies
 pnpm i
 ```
 
-First, run the development server:
+Run the development server:
 
 ```bash
 pnpm dev
