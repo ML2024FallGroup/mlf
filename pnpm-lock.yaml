@@ -20,12 +20,21 @@ dependencies:
   next:
     specifier: 14.2.16
     version: 14.2.16(react-dom@18.0.0)(react@18.0.0)
+  next-themes:
+    specifier: ^0.3.0
+    version: 0.3.0(react-dom@18.0.0)(react@18.0.0)
   react:
     specifier: ^18
     version: 18.0.0
   react-dom:
     specifier: ^18
     version: 18.0.0(react@18.0.0)
+  react-use-websocket:
+    specifier: ^4.10.1
+    version: 4.10.1
+  sonner:
+    specifier: ^1.5.0
+    version: 1.5.0(react-dom@18.0.0)(react@18.0.0)
   tailwind-merge:
     specifier: ^2.5.4
     version: 2.5.4
@@ -1968,6 +1977,16 @@ packages:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
     dev: true
 
+  /next-themes@0.3.0(react-dom@18.0.0)(react@18.0.0):
+    resolution: {integrity: sha512-/QHIrsYpd6Kfk7xakK4svpDI5mmXP0gfvCoJdGpZQ2TOrQZmsW0QxjaiLn8wbIKjtm4BTSqLoix4lxYYOnLJ/w==}
+    peerDependencies:
+      react: ^16.8 || ^17 || ^18
+      react-dom: ^16.8 || ^17 || ^18
+    dependencies:
+      react: 18.0.0
+      react-dom: 18.0.0(react@18.0.0)
+    dev: false
+
   /next@14.2.16(react-dom@18.0.0)(react@18.0.0):
     resolution: {integrity: sha512-LcO7WnFu6lYSvCzZoo1dB+IO0xXz5uEv52HF1IUN0IqVTUIZGHuuR10I5efiLadGt+4oZqTcNZyVVEem/TM5nA==}
     engines: {node: '>=18.17.0'}
@@ -2268,6 +2287,10 @@ packages:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
     dev: true
 
+  /react-use-websocket@4.10.1:
+    resolution: {integrity: sha512-PrZbKj3BSy9kRU9otKEoMi0FOcEVh1abyYxJDzB/oL7kMBDBs+ZXhnWWed/sc679nPHAWMOn1gotoV04j5gJUw==}
+    dev: false
+
   /react@18.0.0:
     resolution: {integrity: sha512-x+VL6wbT4JRVPm7EGxXhZ8w8LTROaxPXOqhlGyVSrv0sB1jkyFGgXxJ8LVoPRLvPR6/CIZGFmfzqUa2NYeMr2A==}
     engines: {node: '>=0.10.0'}
@@ -2438,6 +2461,16 @@ packages:
   /signal-exit@4.1.0:
     resolution: {integrity: sha512-bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw==}
     engines: {node: '>=14'}
+
+  /sonner@1.5.0(react-dom@18.0.0)(react@18.0.0):
+    resolution: {integrity: sha512-FBjhG/gnnbN6FY0jaNnqZOMmB73R+5IiyYAw8yBj7L54ER7HB3fOSE5OFiQiE2iXWxeXKvg6fIP4LtVppHEdJA==}
+    peerDependencies:
+      react: ^18.0.0
+      react-dom: ^18.0.0
+    dependencies:
+      react: 18.0.0
+      react-dom: 18.0.0(react@18.0.0)
+    dev: false
 
   /source-map-js@1.2.1:
     resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
