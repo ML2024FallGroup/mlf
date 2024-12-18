@@ -2,8 +2,9 @@
 
 import { useCallback, useState } from "react";
 import { Upload, CheckCircle, AlertCircle } from "lucide-react";
-import Draw from "@/public/demo2";
+
 import useMainAudioStore from "@/lib/audioStore";
+import Draw from "@/components/demo2";
 
 // const store = useMainAudioStore();
 
