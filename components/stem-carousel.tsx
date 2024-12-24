@@ -1,4 +1,4 @@
-import ChunkCard from "@/public/chunk-card";
+import ChunkCard from "@/components/chunk-card";
 import {
   Carousel,
   CarouselContent,
